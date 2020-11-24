@@ -1,0 +1,11 @@
+
+{
+java:S1128	"YRemove this unused import 'org.springframework.web.bind.MethodArgumentNotValidException'.(Ñîœ¥ÿÿÿÿÿ8œüàıŞ.
+Q
+java:S22019"/The return value of "orElseThrow" must be used.(öş¦Ïøÿÿÿÿ8ÁÛÈıŞ.
+
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "cliente".(”ì“œşÿÿÿÿ8ºßÇıŞ.
+I
+java:S2201*"'The return value of "map" must be used.(¬²‡ÿÿÿÿÿ8ÁÛÈıŞ.
+q
+java:S1128"ORemove this unused import 'org.springframework.expression.ExpressionException'.(¯ô“áùÿÿÿÿ8¶ªøıŞ.
