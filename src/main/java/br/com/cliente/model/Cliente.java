@@ -42,4 +42,6 @@ public class Cliente  implements Serializable {
         setDataCadastro(LocalDate.now());
     }
 
+
+
 }

@@ -1,0 +1,22 @@
+
+w
+java:S1128"ZRemove this unused import 'org.springframework.web.cors.reactive.CorsConfigurationSource'.(Ó»ÎÂ8öù°‘ß.
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8öù°‘ß.
+‰
+java:S1130!"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(™¼ò¿8›Æ©ß.
+o	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦—Æ˜ÿÿÿÿÿ8ÁÕíß.
+{
+java:S1128"YRemove this unused import 'org.springframework.web.cors.UrlBasedCorsConfigurationSource'.(µ²İûùÿÿÿÿ8öù°‘ß.
+b	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(™¼ò¿8ÁÕíß.
+g
+java:S1128"KRemove this unused import 'org.springframework.web.cors.CorsConfiguration'.(î¤·`8öù°‘ß.
+}
+java:S1128"[Remove this unused import 'org.springframework.web.servlet.config.annotation.CorsRegistry'.(âÁ’©şÿÿÿÿ8öù°‘ß.
+X	java:S125'"<This block of commented-out lines of code should be removed.(¼À„ä8Åº˜ß.
+š
+java:S4601@"xReorder the URL patterns from most to less specific, the pattern "/api/clientes/" should occurs before "/api/clientes/".(­Ô‰şÿÿÿÿ8—‘ß.
+—
+java:S1128"zRemove this unused import 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter'.(š©À8öù°‘ß.
+
+java:S1128"_Remove this unused import 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer'.(’µ¥Êÿÿÿÿÿ8öù°‘ß.

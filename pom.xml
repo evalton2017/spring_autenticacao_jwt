@@ -50,23 +50,30 @@
             <optional>true</optional>
         </dependency>
 
+ <!-- dependencias para segurança de acesso -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-oauth2-resource-server -->
+        
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
+            <groupId>org.springframework.security.oauth.boot</groupId>
+            <artifactId>spring-security-oauth2-autoconfigure</artifactId>
+            <version>2.0.1.RELEASE</version>
+        </dependency>
+        
+         <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-jwt</artifactId>
+            <version>1.1.0.RELEASE</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.keycloak/keycloak-spring-boot-starter -->
+        <!-- https://mvnrepository.com/artifact/org.keycloak/keycloak-spring-boot-starter
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-spring-boot-starter</artifactId>
             <version>11.0.2</version>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -82,7 +89,7 @@
     </dependencies>
 
 
-    <dependencyManagement>
+  <!--   <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.keycloak.bom</groupId>
@@ -92,7 +99,7 @@
                 <scope>import</scope>
             </dependency>
         </dependencies>
-    </dependencyManagement>
+    </dependencyManagement> -->
 
     <build>
         <plugins>

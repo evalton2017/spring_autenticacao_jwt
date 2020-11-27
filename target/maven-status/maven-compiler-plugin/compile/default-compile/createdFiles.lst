@@ -6,7 +6,6 @@ br\com\cliente\model\ServicoPrestado.class
 br\com\cliente\rest\exception\ApiErros.class
 br\com\cliente\rest\ClienteController.class
 br\com\cliente\config\InternacionalizacaoConfig.class
-br\com\cliente\config\WebConfig.class
 br\com\cliente\model\repository\ClienteRepository.class
 br\com\cliente\rest\dto\ServicoPrestadoDTO.class
 br\com\cliente\config\KeyclokAdapterConfig.class
